@@ -2,9 +2,9 @@
 
 This project is written in Java. It has two major classes, "Word", which is used to represent a word and contains a static final List of points that are assigned to each character in scrabble, and contains two things, a String that is used to represent the word and an int that has the points that the word will fetch.
 "Word" need not always contain a legal word. There are three kinds of words:
->Any Word
->Anagram of a legal word
->Legal word
+1. Any Word
+2. Anagram of a legal word
+3. Legal word
 
 The next class is "Rack", which is used to represent the entire rack and contains a String that represents all the tiles present in the rack.
 
