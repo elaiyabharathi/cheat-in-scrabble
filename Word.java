@@ -21,7 +21,7 @@ public class Word {
     }
 
     public Word(String word) {
-        this.word = word;
+        this.word = word.toUpperCase();
         this.points = computePoints();
     }
 
